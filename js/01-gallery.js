@@ -1,9 +1,10 @@
 import { galleryItems } from './gallery-items.js';
 // Change code below this line
 
+
 const galleryOfImages = document.querySelector('.gallery');
 const cardOfImage = onCreateGalleryItem(galleryItems);
-
+let instance = '';
 
 galleryOfImages.insertAdjacentHTML('beforeend', cardOfImage);
 
@@ -25,6 +26,12 @@ function onCreateGalleryItem(galleryItems) {
 }
 galleryOfImages.addEventListener('click', e => {
     e.preventDefault();
-    if (e.target.nodeName)
-        console.log(e.target.nodeName)
+    if (e.target.nodeName !== "IMG") {
+        return;
+    }
+    instance = basicLightbox.create(`
+		<img src="${e.target.dataset.source}" width="1280" height="900">
+	`).show()
+     
 })
+
