@@ -4,6 +4,7 @@ import { galleryItems } from './gallery-items.js';
 const galleryOfImages = document.querySelector('.gallery');
 const cardOfImage = onCreateGalleryItem(galleryItems);
 
+
 galleryOfImages.insertAdjacentHTML('beforeend', cardOfImage);
 
 function onCreateGalleryItem(galleryItems) {
@@ -22,4 +23,8 @@ function onCreateGalleryItem(galleryItems) {
         `
     }).join('')
 }
-galleryOfImages.addEventListener('click', e => {})
+galleryOfImages.addEventListener('click', e => {
+    e.preventDefault();
+    if (e.target.nodeName)
+        console.log(e.target.nodeName)
+})
