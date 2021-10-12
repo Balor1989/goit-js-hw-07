@@ -17,6 +17,8 @@ function onCreateGalleryItem(galleryItems) {
 }
 // Interface
 new SimpleLightbox('.gallery a', {
+   disableRightClick: true,
+    scrollZoom: false,
     captionDelay: 250,
     captionsData: 'alt', 
 });
