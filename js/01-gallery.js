@@ -4,9 +4,10 @@ import { galleryItems } from './gallery-items.js';
 
 const galleryOfImages = document.querySelector('.gallery');
 const cardOfImage = onCreateGalleryItem(galleryItems);
-let instance = '';
+let openOriginalImage;
 
 galleryOfImages.insertAdjacentHTML('beforeend', cardOfImage);
+galleryOfImages.addEventListener('keydown', onPressEscToCloseImage);
 
 function onCreateGalleryItem(galleryItems) {
     return galleryItems.map(({preview, original, description}) => {
@@ -29,9 +30,16 @@ galleryOfImages.addEventListener('click', e => {
     if (e.target.nodeName !== "IMG") {
         return;
     }
-    instance = basicLightbox.create(`
+    openOriginalImage = basicLightbox.create(`
 		<img src="${e.target.dataset.source}" width="1280" height="900">
-	`).show()
-     
-})
+	`)
+    openOriginalImage.show()
+});
 
+
+function onPressEscToCloseImage(event) {
+  if (event.code !== 'Escape') {
+      return;
+    }
+    openOriginalImage.close();
+}
