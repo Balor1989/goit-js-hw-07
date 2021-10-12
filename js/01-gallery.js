@@ -15,6 +15,7 @@ function onCreateGalleryItem(galleryItems) {
         <div class="gallery__item">
              <a class="gallery__link" href="large-image.jpg">
                 <img
+                    loading = "lazy"
                     class="gallery__image"
                     src="${preview}"
                     data-source="${original}"
