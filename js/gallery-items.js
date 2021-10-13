@@ -64,10 +64,10 @@ export const galleryItems = [
   },
   {
     preview:
-      'https://pixabay.com/get/g4c6701eab5f4d68a5861b5b71ae7ded5b6d3c15d26f879d8b8919a36f915790342601fecdabbf001f0227f9ae9ff015e0866d15754af0cd3951378c943f7152c_1280.jpg',
+      'https://cdn.pixabay.com/photo/2020/09/30/12/18/books-5615562__340.jpg',
     original:
-      'https://pixabay.com/get/g4c6701eab5f4d68a5861b5b71ae7ded5b6d3c15d26f879d8b8919a36f915790342601fecdabbf001f0227f9ae9ff015e0866d15754af0cd3951378c943f7152c_1280.jpg',
-    description: 'Elephant In Jungle',
+      'https://cdn.pixabay.com/photo/2020/09/30/12/18/books-5615562_1280.jpg',
+    description: 'Book Pages',
   },
   {
    preview:
