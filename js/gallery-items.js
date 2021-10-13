@@ -293,4 +293,151 @@ export const galleryItems = [
       'https://cdn.pixabay.com/photo/2020/10/18/18/42/bulb-5665770_1280.jpg',
     description: 'Light And Fire',
   },
+  {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/16/03/27/lorikeet-6549172__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/16/03/27/lorikeet-6549172_1280.jpg',
+     description: 'Bird Perched',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/09/14/17/07/scooter-6624573__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/09/14/17/07/scooter-6624573_1280.jpg',
+     description: 'Scooter',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/20/19/49/boat-6561172__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/20/19/49/boat-6561172_1280.jpg',
+     description: 'Boat On The Lake',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/06/18/51/lake-6526995__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/06/18/51/lake-6526995_1280.jpg',
+     description: 'Lake Near The Mountains',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/07/20/18/19/bald-eagle-6481346__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/07/20/18/19/bald-eagle-6481346_1280.jpg',
+     description: 'Eagle Head',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/23/11/06/nature-6567542__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/23/11/06/nature-6567542_1280.jpg',
+     description: 'Outdoors',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/11/14/22/ice-6538605__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/11/14/22/ice-6538605_1280.jpg',
+     description: 'Frost',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/09/11/16/23/background-6616007__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/09/11/16/23/background-6616007_1280.jpg',
+     description: 'Sunset At The Lake',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/10/06/09/38/nature-6685262__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/10/06/09/38/nature-6685262_1280.jpg',
+     description: 'Bench',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/10/05/11/02/tree-6682409__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/10/05/11/02/tree-6682409_1280.jpg',
+     description: 'Sunset',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/10/06/07/41/animals-6684785__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/10/06/07/41/animals-6684785_1280.jpg',
+     description: 'Headgehogs',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/26/12/51/bridge-6576027__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/26/12/51/bridge-6576027_1280.jpg',
+     description: 'Bridge In Ocean',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2015/02/04/13/23/tea-623796__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2015/02/04/13/23/tea-623796_1280.jpg',
+     description: 'Fresh Green Tea',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2018/01/03/06/08/tee-3057645__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2018/01/03/06/08/tee-3057645_1280.jpg',
+     description: 'Tea Set',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2017/08/01/00/18/outdoor-2562223__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2017/08/01/00/18/outdoor-2562223_1280.jpg',
+     description: 'Sweater And Tea',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2015/07/02/10/44/tea-828940__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2015/07/02/10/44/tea-828940_1280.jpg',
+     description: 'Red Tea',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2015/02/02/11/09/tea-620820__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2015/02/02/11/09/tea-620820_1280.jpg',
+     description: 'Sheng Puerh',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/08/23/18/37/tea-6568547__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/08/23/18/37/tea-6568547_1280.jpg',
+     description: 'Organic Tea',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2015/11/03/09/49/pu-erh-tea-1020476__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2015/11/03/09/49/pu-erh-tea-1020476_1280.jpg',
+     description: 'Shu Puerh',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2021/09/17/15/17/fruit-6633086__340.jpg',
+     original:
+       'https://cdn.pixabay.com/photo/2021/09/17/15/17/fruit-6633086_1280.jpg',
+     description: 'Grapes And Water',
+   },
+   {
+    preview:
+       'https://cdn.pixabay.com/photo/2014/10/27/03/11/tea-cake-504706__340.jpg',
+     original:
+       '',
+     description: 'Tea Packaging',
+   },
 ];
